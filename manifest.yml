@@ -6,3 +6,5 @@ applications:
   name: rg-28-nodejs
   host: rg-28-nodejs
   disk_quota: 1024M
+  env:
+     ENABLE_BLUEMIX_DEV_MODE: “true”
